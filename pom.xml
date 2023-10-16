@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- 指定当前pom的版本 -->
+    <modelVersion>4.0.0</modelVersion>
+    <!--项目主标识，用于定义当前项目属于的实际项目，格式与项目创建的包是一样的，通常为域名反写-->
+    <groupId>net.javadog.ocr</groupId>
+    <!--项目的通用名称-->
+    <artifactId>ocr-java-master</artifactId>
+    <!--打包机制-->
+<!--    <packaging>pom</packaging>-->
+    <!--项目的版本-->
+    <version>1.0-SNAPSHOT</version>
+    <!--项目描述名-->
+    <name>ocr-java</name>
+    <!--项目地址-->
+    <url>https://gitee.com/javadog-net</url>
+    <!--项目描述-->
+    <description>javadog-百度ocr图片识别</description>
+
+    <!--开发人员信息-->
+    <developers>
+        <!-- 某个项目开发者的信息 -->
+        <developer>
+            <!-- 项目开发者的唯一标识符 -->
+            <id>javadog</id>
+            <!-- 项目开发者的全名 -->
+            <name>胡东旭</name>
+            <!-- 项目开发者的email -->
+            <email>862422627@qq.com</email>
+            <!-- 项目开发者的主页的URL -->
+            <url>http://www.javadog.net</url>
+            <!-- 项目开发者在项目中扮演的角色，角色元素描述了各种角色 -->
+            <roles>
+                <!-- 项目开发者 -->
+                <role>developer</role>
+            </roles>
+            <!-- 项目开发者所属组织 -->
+            <organization>net.javadog</organization>
+            <!-- 项目开发者所属组织的URL -->
+            <organizationUrl>http://www.javadog.net</organizationUrl>
+        </developer>
+    </developers>
+
+    <properties>
+        <!--指定java编译器源代码版本-->
+        <maven.compiler.source>8</maven.compiler.source>
+        <!--指定java编译器源目标版本-->
+        <maven.compiler.target>8</maven.compiler.target>
+        <!--强制字符集编码-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--强制输出报告字符集编码-->
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!--Java版本号-->
+        <java.version>1.8</java.version>
+
+        <!-- BeautyEye - Java Swing 跨平台外观实现 -->
+        <BeautyEye.version>1.0.0</BeautyEye.version>
+        <!-- okhttp3 网络请求框架 -->
+        <okhttp3.version>4.9.3</okhttp3.version>
+        <!-- json JSON解析工具 -->
+        <json.version>20160810</json.version>
+        <!-- commons-io IO常用工具类 -->
+        <commons-io.version>2.4</commons-io.version>
+        <!-- Hutool Java 工具集 -->
+        <hutool.version>5.5.8</hutool.version>
+        <!-- Lombok java 类库 -->
+        <lombok.version>1.18.12</lombok.version>
+        <!-- slf4j 日志类库 -->
+        <slf4j.version>2.0.7</slf4j.version>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bulucat</groupId>
+            <artifactId>BeautyEye</artifactId>
+            <version>${BeautyEye.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp3.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${json.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+    </dependencies>
+</project>
