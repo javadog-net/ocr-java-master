@@ -9,26 +9,32 @@
 ******
 ### 🍍 Tip
 一位特别的老友即将**在2023年10月26日**年满**30周岁**，愿**平安喜乐**
+
 ![](https://img.javadog.net/blog/ocr-java/f3d2b9de136a493fb854b0721ff22496.png)
 
 ******
 ### 🎁快速链接
 公众号：【JavaDog程序狗】
 **关注公众号，发送 ocr ，无任何套路即可获得**
+
 ![](https://img.javadog.net/blog/ocr-java/08f99c192bc450038478765fc9ee787.png)
 
 ******
 ### 🥝成果初展
 #### 可执行的ocr-java.exe文件
+
 ![](https://img.javadog.net/blog/ocr-java/f7947fb36050478781401a5466af3d63.png)
 
 #### 图片识别
+
 ![](https://img.javadog.net/blog/ocr-java/ffcdd1ee82e34d68ad5813b11a51353e.png)
 
 #### 选择图片
+
 ![](https://img.javadog.net/blog/ocr-java/0c678b5cc3ad459699b4fcc44fa543f7.png)
 
 #### 截图
+
 ![](https://img.javadog.net/blog/ocr-java/28abe0225e5d4baab90109c46256d970.png)
 
 ******
