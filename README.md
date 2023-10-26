@@ -273,6 +273,7 @@ java -jar ocr-java-master.jar
 ![](https://img.javadog.net/blog/ocr-java/e55c65b223664e6dbed5961ecea0d270.png)
 
 **此群优势：**
+
 1. 技术交流随时沟通
 2. 任何私活资源免费分享
 3. 实时科技动态抢先知晓
