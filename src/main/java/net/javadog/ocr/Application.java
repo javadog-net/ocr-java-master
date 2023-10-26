@@ -24,6 +24,7 @@ public class Application {
     }
 
     static void init(){
+
         BeautyEyeLNFHelper.frameBorderStyle = BeautyEyeLNFHelper.FrameBorderStyle.generalNoTranslucencyShadow;
         try {
             BeautyEyeLNFHelper.launchBeautyEyeLNF();
